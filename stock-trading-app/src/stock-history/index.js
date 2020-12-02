@@ -1,0 +1,1 @@
+export { useStockHistory } from './useStockHistory';

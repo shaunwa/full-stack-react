@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  border-bottom: 2px solid #eee;
+  padding: 16px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  padding: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  padding: 16px;
+}
+
+.app-heading {
+  display: inline-block;
+  margin: 8px;
+}
+
+.logged-in-as {
+  float: right;
+  margin-right: 16px;
+}
+
+.sign-out-button {
+  float: right;
+}
+
+.centered-container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.section-heading {
+  border-bottom: 1px solid black;
+  padding-bottom: 16px;
+}
+
+.list-item {
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  padding: 16px;
+}
+
+.list-item-data {
+  flex: 1;
+}
+
+.new-message-form {
+  padding: 16px 0;
+  display: flex;
+}
+
+.new-message-form input {
+  flex: 8;
+}
+
+.new-message-form button {
+  flex: 1;
+}
+
+.error-message {
+  background-color: #ffccbb;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+}
+
+.space-before {
+  margin-top: 16px;
+}
+
+.space-after {
+  margin-bottom: 16px;
+}
